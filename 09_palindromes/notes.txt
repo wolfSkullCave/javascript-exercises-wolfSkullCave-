@@ -1,0 +1,8 @@
+How to detect a palindrome in js?
+
+Use array.split('') to split one array into a new array made up of letters
+
+let palin = "hello, world!"
+const letters = palin.split('')
+
+remove any punctuation from the array.
