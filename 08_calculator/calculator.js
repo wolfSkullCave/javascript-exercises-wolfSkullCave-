@@ -7,15 +7,18 @@ const subtract = function(a,b) {
 };
 
 const sum = function(digits) {
-	const total = digits.reduce(total, nextNumber)
+	const total = digits.reduce( (total, nextNumber) => total + nextNumber, 0)
+  return total
 };
 
-const multiply = function() {
-
+const multiply = function(digits) {
+	const total = digits.reduce( (total, nextNumber) => total * nextNumber, 1)
+  return total
 };
 
-const power = function() {
-	
+const power = function(a,b) {
+	const total = Math.pow(a,b)
+  return total
 };
 
 const factorial = function() {
