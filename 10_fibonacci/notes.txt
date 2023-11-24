@@ -1,0 +1,22 @@
+0 + 1 = 1
+1 + 1 = 2
+1 + 2 = 3
+2 + 3 = 5
+3 + 5 = 8
+...
+
+
+
+function fibonacci (getNum) {
+    // return getNum in fibonacci
+
+    // 1 calculate fibonacci getNum times
+    let num1 = 0
+    let num2 = 1
+
+    let num3 = num1 + num2
+    num1 = num2
+    num2 = num3
+
+    return num3
+}
